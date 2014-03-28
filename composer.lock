@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "d4de1eae4ca019bf73e8f85cab8a1177",
+    "hash": "057a8f1a091887218f4417a75e6c4ab8",
     "packages": [
         {
             "name": "composer/installers",
@@ -513,6 +513,29 @@
                 "wordpress"
             ],
             "time": "2014-02-28 15:47:44"
+        },
+        {
+            "name": "wpackagist-plugin/wordless",
+            "version": "0.3",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/wordless/",
+                "reference": "tags/0.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://downloads.wordpress.org/plugin/wordless.0.3.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "replace": {
+                "wpackagist/wordless": "self.version"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "http://wordpress.org/plugins/wordless/"
         }
     ],
     "packages-dev": [
